@@ -1,31 +1,29 @@
 # awesome-tools
-
-> 从 [Blog](https://github.com/sorrycc/blog/issues/83) 迁移到 GitHub 仓库维护，可以有历史记录。
+>在前辈的基础上慢慢修改，记录自己在工具使用上的历程。
+>主要写了自己看的，所以软件啥的就不加链接了。
 
 ## 翻墙
 
-主 [**rixcloud**](https://home.rixcloud.me/aff.php?aff=1432)，备**阿里云香港**和**公司翻墙**。
+只是用iGuge的付费订阅服务
 
-- rixcloud 比较稳，特殊时期也能用，支持 surge 客户端，支持 netflix
-- 软件方面，Mac 下用 [**ShadowsocksX-NG-R**](https://github.com/qinyuhang/ShadowsocksX-NG-R/releases)，iPhone 下用 [**ShadowRocket**](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)（切美区下载）
-- 通过 [**Proxifier**](https://www.proxifier.com/) 实现命令行应用或其他应用翻墙，比如 iTerm2 下执行 npm publish 偶尔会被墙，并且实测下来比 `export http_proxy` 快
-- 家里的路由器翻墙是用 [**RT-AC88U**](https://www.asus.com/us/Networking/RT-AC88U/) + **梅林小宝版固件**
-- 电视上看 youtube 和 netflix 可以用 [**Nvidia Shield TV**](https://www.nvidia.com/en-us/shield/)，我买的美版，据说国版也可刷原生系统
+- Windows上iGuge的插件便足以够用了，偶尔需要用V2rayN来进行一些下载工作
+- Linux服务器上，因为客户端翻墙的方法尚未掌握，曲线救国，在Ubuntu图形化界面下安装使用Qv2ray。
+- iOS上使用小火箭，配置上`捷径`自动化，让它在打开某些软件时自动启动。
+- 安卓上有iGuge官方软件，用过几次，很方便。
 
-## Mac 软件
-
-用了 [SetApp](https://go.setapp.com/invite/sorrycc)，包含以下的不少应用，能省不少。
+## Windows 软件
+~~用了 [SetApp](https://go.setapp.com/invite/sorrycc)，包含以下的不少应用，能省不少。~~
+没有Mac的我就不要想:peach:了。
 
 ### 编辑器和 Terminal
 
-主 [**WebStorm**](https://www.jetbrains.com/idea/)，辅 [**VSCode**](https://code.visualstudio.com/) 和 **Vim**。选 WebStorm 的原因是无需安装插件就很好用，另外也是没有时间去折腾插件。
+主 [**VSCode**](https://code.visualstudio.com/) 和 **Vim**。
+- VSCode插件上安装了Vim插件，在涉及ex模式等模式时相当智障，但基础的编辑功能应有尽有。VSCode和Vim各取所长，香到爆炸。
+- Terminal用的是Termius，基础功能就已足够好用。能够连接服务器，打开本地终端，也能实现基础的FTP功能。而且，该软件现已加入Github黄书包白嫖大套餐中。
+---
+就暂且编辑到这里了
 
-- 字体用 [**Dank Mono**](https://dank.sh/) 和 [**Operator Mono**](http://www.typography.com/fonts/operator/overview/)，轮着用，看厌一个切另一个
-- WebStorm 使用 [**material-theme-jetbrains**](https://github.com/ChrisRM/material-theme-jetbrains)，Theme 选 Material One Dark，字号 16 号，行距 1.2，[效果图](https://gw.alipayobjects.com/zos/rmsportal/JKRPNvvHhPgFonHHXvPe.png)
-- WebStorm 插件额外装了 **File Watchers**、**GitLink**、**Import Cost**、**Prettier** 和 **Rainbow Brackets**
-- Terminal 用 [**iTerm2**](https://www.iterm2.com/) + [**zsh**](https://en.wikipedia.org/wiki/Z_shell) + [**oh-my-zsh**](https://github.com/robbyrussell/oh-my-zsh) 的组合，主题是 [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme)
-- zsh 的插件开了 git、autojump、brew、git、git-extra、git-flow、git-prompt、git-remote-branch、github、gitignore、history、history-substring-search、iterm2、node、npm、npx、nvm、tig、vscode、yarn、[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- iTerm2 里配 `Run command...` 为 `/usr/local/bin/idea --path \2 \1` ([图](https://zos.alipayobjects.com/rmsportal/RmWdxKRQUWFMoVDjerNQ.png))，这样 Command + 点击文件路径，就会在 Intellij Idea 里打开
+---
 
 ### 开发辅助
 
